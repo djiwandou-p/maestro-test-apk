@@ -10,5 +10,7 @@ appId: tech.jala.android.lite
 - tapOn: "Kata Sandi"
 - inputText: "jalaistimewa"
 - hideKeyboard
-- pressKey: tab
+- scrollUntilVisible:
+    element: "Masuk"
+    direction: DOWN
 - tapOn: "Masuk"
