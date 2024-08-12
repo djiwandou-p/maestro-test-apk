@@ -3,10 +3,10 @@ appId: tech.jala.android.lite
 - launchApp
 - tapOn: "Masuk"
 - tapOn: "Masuk dengan No HP atau Email"
-- tapOn: 
+- tapOn: "No. Handphone atau Email"
   below: "No. Handphone atau Email"
 - inputText: "flutter10@gmail.com"
-- tapOn: 
+- tapOn: "Kata Sandi"
   below: "Kata Sandi"
 - inputText: "jalaistimewa"
 - tapOn: "Masuk"
