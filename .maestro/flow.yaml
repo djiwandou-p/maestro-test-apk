@@ -4,11 +4,9 @@ appId: tech.jala.android.lite
 - tapOn: "Masuk"
 - tapOn: "Masuk dengan No HP atau Email"
 - assertVisible: "No. Handphone atau Email"
-- tapOn: 
-    id: 1
+- tapOn: "No. Handphone atau Email"
 - inputText: "flutter10@gmail.com"
 - assertVisible: "Kata Sandi"
-- tapOn: 
-    id: 2
+- tapOn: "Kata Sandi"
 - inputText: "jalaistimewa"
 - tapOn: "Masuk"
