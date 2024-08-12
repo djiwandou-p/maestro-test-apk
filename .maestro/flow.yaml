@@ -3,4 +3,18 @@ appId: tech.jala.android.lite
 - launchApp
 - tapOn: "Masuk"
 - tapOn: "Masuk dengan No HP atau Email"
-- tapOn: "Lupa kata sandi?"
+- assertVisible: "No. Handphone atau Email"
+- tapOn: "No. Handphone atau Email"
+- inputText: 
+    label: "Input email"
+    text: "flutter10@gmail.com"
+- assertVisible: "Kata Sandi"
+- tapOn: "Kata Sandi"
+- inputText: 
+    label: "Input password"
+    text: "jalaistimewa"
+- hideKeyboard
+- scrollUntilVisible:
+    element: "Masuk"
+    direction: DOWN
+- tapOn: "Masuk"
